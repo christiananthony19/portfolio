@@ -1,7 +1,8 @@
 body {
     background-color: #000314;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
     color: white;
 }
 ::-webkit-scrollbar {
@@ -10,26 +11,31 @@ body {
 
 .banner {
     position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .banner-details {
     position: absolute;
     text-align: center;
     margin: 0;
-    width: 100vw;
+    width: 100%;
     top: 40vh;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 #banner-image {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: auto;
     display: block;
 }
 
 .about{
-    margin-top: 5%;
+    padding-top: 5%;
     text-align: center;
 }
 #personalImage{
@@ -45,7 +51,7 @@ body {
     left:30%;
 }
 
-h1 {
+h1{
     font-family: 'Dancing Script', 'Arimo', cursive;
     font-size: 3.2em;
     font-weight: 400;
@@ -80,12 +86,9 @@ h2{
 #footnote{
     margin-top: 5%;
     background-color: black;
-    width: 100%;
     text-align: center;
     padding:1em;
 }
-
-
 .image-desc{
     display: inline-block;
     position: relative;
@@ -106,5 +109,7 @@ a:hover{
 .footer-link{
     position: relative;
     display:inline;
-    bottom:1.5vw
+    bottom:1.5vw;
 }
+
+
