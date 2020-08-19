@@ -1,0 +1,110 @@
+body {
+    background-color: #000314;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-details {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+    top: 40vh;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+#banner-image {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: block;
+}
+
+.about{
+    margin-top: 5%;
+    text-align: center;
+}
+#personalImage{
+    width:15%;
+    height:15%;
+    margin: auto;
+    display: block;
+}
+
+#about-p1{
+    position:relative;
+    width:40%;
+    left:30%;
+}
+
+h1 {
+    font-family: 'Dancing Script', 'Arimo', cursive;
+    font-size: 3.2em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 750;
+    line-height: 1.1;
+}
+.p1{
+    font-family: 'EB Garamond',"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    font-size :20px;
+}
+.skills{
+    padding-top: 9%;
+}
+.skillImages{
+    padding-top: 3vh;
+    width:20%;
+    height:20%;
+    margin: auto;
+    display: block;
+}
+.skill-p1{
+    position:relative;
+    width:60vw;
+    left:20vw;
+}
+#footnote{
+    margin-top: 5%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding:1em;
+}
+
+
+.image-desc{
+    display: inline-block;
+    position: relative;
+    padding:0 5%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:red;
+}
+.a-Images{
+    width:10vw;
+    height:10vh;
+    margin: auto;
+}
+.footer-link{
+    position: relative;
+    display:inline;
+    bottom:1.5vw
+}
